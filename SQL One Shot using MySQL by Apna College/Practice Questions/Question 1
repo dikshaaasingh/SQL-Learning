@@ -1,7 +1,26 @@
-** Question 1: Create a database for your company named XYZ **
+**Question 1: Create a database for your company named XYZ
 Step 1: Create a table inside this DB to store employee info(id, name and salary)
 Step 2: Add following information in the DB:
 1, "Adam", 25000
 2, "bob", 30000
 3, "casey", 40000
-Step 3: Select and view all your table data
+Step 3: Select and view all your table data **
+
+
+
+ANSWER
+CREATE DATABASE XYZ;  #STEP1
+USE XYZ;
+CREATE TABLE employee(
+id INT PRIMARY KEY,
+name VARCHAR(50),
+salary INT NOT NULL
+);
+INSERT INTO employee   #STEP2
+(id, name, salary)
+VALUES
+(1, "Adam", 25000),
+(2, "Bob", 30000),
+(3, "Casey", 40000);
+
+SELECT * FROM employee;   #STEP3
