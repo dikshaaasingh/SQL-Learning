@@ -1,1 +1,7 @@
-
+**Question 1: Create a database for your company named XYZ
+Step 1: Create a table inside this DB to store employee info(id, name and salary)
+Step 2: Add following information in the DB:
+1, "Adam", 25000
+2, "bob", 30000
+3, "casey", 40000
+Step 3: Select and view all your table data**
